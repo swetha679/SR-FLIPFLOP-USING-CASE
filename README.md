@@ -72,8 +72,14 @@ endmodule
 
 **TIMING DIAGRAMS FOR FLIP FLOPS**
 
+
+
+
 ![image](https://github.com/user-attachments/assets/f69f9d61-4f36-4165-a3a0-a70850b632d2)
 
 
 **RESULT**
+
+
+
 implemented SR flipflop using Verilog and validated their functionality using their functional tables
