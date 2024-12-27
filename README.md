@@ -37,6 +37,9 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 /* write all the steps invloved */
 
 **PROGRAM**
+
+
+
 developed by Swetha Nivasini B R
 
 
