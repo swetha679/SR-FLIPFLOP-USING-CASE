@@ -115,4 +115,4 @@ registration number 24900367
 
 
 
-implemented SR flipflop using Verilog and validated their functionality using their functional tables
+Implemented SR flipflop using Verilog and validated their functionality using their functional tables
