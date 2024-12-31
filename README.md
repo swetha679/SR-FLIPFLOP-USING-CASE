@@ -55,22 +55,23 @@ developed by Swetha Nivasini B R
 registration number 24900367
 
 
-module sr_ff (s, r, clk, rst, q);
+     module sr_ff (s, r, clk, rst, q);
 
-  input s, r, clk, rst;
+    input s, r, clk, rst;
   
-  output reg q;
+    output reg q;
 
-  always @(posedge clk or posedge rst)
+    always @(posedge clk or posedge rst)
   
- begin
+    begin
+    
     if (rst)
     
-      q <= 0; // Reset the flip-flop
+     q <= 0; // Reset the flip-flop
       
     else
     
- begin
+    begin
  
       case ({s, r}) // S and R control the behavior
       
@@ -84,11 +85,11 @@ module sr_ff (s, r, clk, rst, q);
         
       endcase
       
-    end
+     end
     
-  end
+     end
   
-endmodule
+   endmodule
 
 
 
@@ -105,7 +106,8 @@ endmodule
 
 
 
-![Screenshot (122)](https://github.com/user-attachments/assets/ff874c22-4b42-4f80-9cdf-92df7755f4f9)
+![WhatsApp Image 2024-12-31 at 13 24 00_c4ec864b](https://github.com/user-attachments/assets/776be62d-b818-4344-b09a-72947e22de5a)
+
 
 
 
